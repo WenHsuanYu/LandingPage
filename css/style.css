@@ -113,7 +113,7 @@ div .container1 {
 }
 
 button {
-  cursor: pointer;
+  /* cursor: pointer; */
   padding: 8px 12px;
   border-radius: 8px;
 }
@@ -162,7 +162,6 @@ button {
 }
 
 /* third part */
-
 .third {
     display:flex;
     padding: 60px;
@@ -173,4 +172,40 @@ button {
     font-style: italic;
     color: #1F2937;
     margin:30px 0px;
+}
+
+/* fourth part */
+
+.fourth {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap:80px;
+    margin: 30px;
+    border-radius: 8px;
+    color: #E5E7EB;
+    font-weight: 550;
+    font-size: 18px;
+    background-color: #3882F6;
+}
+
+.sub_items1 {
+    text-align: left;
+    font-weight: 800;
+}
+
+.fourth_container div {
+    background-color: #3882F6;
+}
+
+.signup2 {
+    border: 1px solid white;
+    color: white;
 }
